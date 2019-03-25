@@ -1,0 +1,7 @@
+<<<<<<< HEAD
+zmiana
+zmiana 2
+
+zmiana 3
+=======
+>>>>>>> parent of efd8f18... Modified git1.txt
