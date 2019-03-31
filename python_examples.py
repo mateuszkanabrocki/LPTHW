@@ -81,8 +81,12 @@ def exec_test():
 # lambda
 def lambda_test():
 
-    y = lambda a, b : 2*a + 9*b +3
-    print(y(2, 3))
+    y = lambda a, b : 2*a + 9*b + 3
+
+# instead of lambda (PEP)
+def f(a, b): return 2*a + 9*b + 3
+
+print(f(2, 3))
 
 # raise
 def raise_test():
