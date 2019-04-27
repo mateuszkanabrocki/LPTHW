@@ -1,0 +1,14 @@
+
+Uwagi od Rafa³a
+za du¿o niepotrzebnych opisów funkcji
+uszczuplanie kodu
+funkcja zwraca tru lub false nic wiêcej
+unikaæ rekurencji - while i logika
+bez rekurencji ³atwiej kontroluje siê to co funkcje zwracaj¹ - debugowanie
+
+podes³aæ skrypt komuœ, kto nie ma pythona? jest taka opcja?
+
+
+
+2 wody, kabel, emskie
+

@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+{% if greeting %}
+    I just wanted to say
+    <em style="color: rgb(3, 143, 3); font-size: 2em;">{{ greeting }}</em>.
+{% else %}
+    <em>Hello</em>, world!
+{% endif %}
+
+{% endblock %}
+
+
+<!-- <html>
+    <head>
+        <title>Gothons Of Planet Percal #25</title>
+    </head>
+<body>
+
+{% if greeting %}
+    I just wanted to say
+    <em style="color: green; font-size: 2em;">{{ greeting }}</em>.
+{% else %}
+    <em>Hello</em>, world!
+{% endif %}
+
+</body>
+</html>
+
+http://localhost:5000/hello -->
