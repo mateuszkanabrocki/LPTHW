@@ -1,4 +1,4 @@
-from sys import argv # importing the argv feature from the ses module
+from sys import argv # importing the argv feature from the sys module
 
 script, user_first_name, user_surname = argv # assigning the input for argv to the variables
 prompt = 'Your answer: '

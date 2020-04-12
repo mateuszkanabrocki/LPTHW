@@ -1,4 +1,4 @@
-# import the argv feature from system module
+# import the argv feature from the system module
 from sys import argv
 
 # assign the input values to the variables (strings)
@@ -11,7 +11,7 @@ print("If you do want that hit RETURN.")
 input("?")
 
 print("Opening the file...")
-# open the file "filename" for writing (assign the file - it's coordinates in file object - to "target" variable
+# open the file "filename" for writing (assign the file - it's coordinates in file object - "target" variable)
 target = open(filename, "w")
 
 print("Truncating the file. Goodbye!")
@@ -27,7 +27,7 @@ line3 = input("line3:\n")
 
 print("I'm going to write these to the file.")
 
-# write these inputs to the file
+# write the inputs to the file
 target.write(line1)
 target.write("\n")
 target.write(line2)

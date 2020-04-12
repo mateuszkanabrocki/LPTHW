@@ -7,4 +7,5 @@ weight = input("How much do you weight?\n")
 print(f"So, you're {age} years old, {height} tall and {weight} heavy.") 
 
 # won't get the input - unfortunately doesn't work like that
+# well it seems to work now :)
 print("Input?" , input("hehe")) 

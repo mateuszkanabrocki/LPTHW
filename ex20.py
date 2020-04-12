@@ -3,7 +3,7 @@ from sys import argv
 # assign the input file name to the variable
 script, input_file = argv
 
-# function taking object file and printing it
+# function taking object file and printing the file
 def print_all(f):
     print(f.read())
 
@@ -43,3 +43,6 @@ print_a_line(current_line, current_file)
 # print the third line
 current_line += 1
 print_a_line(current_line, current_file)
+
+# rewind the file again
+rewind(current_file

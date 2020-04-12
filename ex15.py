@@ -23,7 +23,15 @@ text_again = open(file_again)
 
 # read the content of the file and print it
 print(text_again.read())
+# have to do the below if you want to print file content
+# twice without closing and opening the file again
+text_again.seek(0)
+print(text_again.read())
 # closing the opened file after using it
 text_again.close() 
 
-# print((open(input("> "))).read())
+# this also works
+print("Here:")
+print((open(input("> "))).read())
+# but this way we do not close the file
+print(text_again.read()) # can't print for the second time
